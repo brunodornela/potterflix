@@ -1,0 +1,158 @@
+{
+  "categorias": [
+    {
+      "titulo": "Trailers",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Trailers from all HP movies",
+        "url": "https://www.youtube.com/watch?v=VyHV0BRtdxo&list=PLeQSSKeXrVRLtMJw1tgO36fRtMxX2nRn7"
+      },
+      "videos": [
+        {
+          "titulo": "Harry Potter exclusive contents!",
+          "url": "https://www.youtube.com/watch?v=PKr1gYDrNAk"
+        },
+        {
+          "titulo": "Harry Potter and the Sorcerer's Stone",
+          "url": "https://www.youtube.com/watch?v=VyHV0BRtdxo"
+        },
+        {
+          "titulo": "Harry Potter and the Chamber of Secrets (2002)",
+          "url": "https://www.youtube.com/watch?v=1bq0qff4iF8"
+        },
+        {
+          "titulo": "Harry Potter and the Prisoner of Azkaban",
+          "url": "https://www.youtube.com/watch?v=lAxgztbYDbs"
+        },
+        {
+          "titulo": "Harry Potter and the Goblet of Fire",
+          "url": "https://www.youtube.com/watch?v=3EGojp4Hh6I"
+        },
+        {
+          "titulo": "Harry Potter and the Order of the Phoenix",
+          "url": "https://www.youtube.com/watch?v=y6ZW7KXaXYk"
+        },
+        {
+          "titulo": "Harry Potter and the Half Blood Prince",
+          "url": "https://www.youtube.com/watch?v=sg81Lts5kYY"
+        },
+        {
+          "titulo": "Harry Potter and the Deathly Hallows: Part 1",
+          "url": "https://www.youtube.com/watch?v=MxqsmsA8y5k"
+        },
+        {
+          "titulo": "Harry Potter and the Deathly Hallows: Part 2",
+          "url": "https://www.youtube.com/watch?v=5NYt1qirBWg"
+        }
+      ]
+    },
+    {
+      "titulo": "Interviews",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Exclusive interviews with cast",
+        "url": "https://www.youtube.com/results?search_query=harry+potter+interviews+with+cast"
+      },
+      "videos": [
+        {
+          "titulo": "'Harry Potter and the Order of the Phoenix' Unscripted | Daniel Radcliffe, Emma Watson, Rupert Grint",
+          "url": "https://www.youtube.com/watch?v=5yOJFJHqAms"
+        },
+        {
+          "titulo": "'Harry Potter and the Sorcerer's Stone' Interview",
+          "url": "https://www.youtube.com/watch?v=PW0rBSxBFtA"
+        },
+        {
+          "titulo": "https://www.youtube.com/watch?v=LqyZfFubnBA",
+          "url": "https://www.youtube.com/watch?v=LqyZfFubnBA"
+        },
+        {
+          "titulo": "Growing Up With Harry Potter Part 1",
+          "url": "https://www.youtube.com/watch?v=FB2kpGMSn2o"
+        },
+        {
+          "titulo": "Tom Felton Reacts To Emma Watson’s ‘Harry Potter’ Crush Revelation!",
+          "url": "https://www.youtube.com/watch?v=H17Hmo8H118"
+        }
+      ]
+    },
+    {
+      "titulo": "Unboxing",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Unboxing official products",
+        "url": "https://www.youtube.com/results?search_query=harry+potter+unboxing+products"
+      },
+      "videos": [
+        {
+          "titulo": "UNBOXING: MINHA NOVA COLEÇÃO DE HARRY POTTER!! | CHICLETE VIOLETA",
+          "url": "https://www.youtube.com/watch?v=MhkDn5HZUM8"
+        },
+        {
+          "titulo": "UNBOXING 4 DIFFERENT HARRY POTTER SUBSCRIPTION BOXES | LootCrate, GeekGear, Owl Post, Wizard's Vault",
+          "url": "https://www.youtube.com/watch?v=f4pdYYlgfqE"
+        },
+        {
+          "titulo": "Personalized Hogwarts Trunk Unboxing (RAVENCLAW) Platform 9 3/4 Shop | Denise Joanne",
+          "url": "https://www.youtube.com/watch?v=eO-FxUm5mng"
+        },
+        {
+          "titulo": "Harry Potter Wands Unboxing 2016 (Almost All Wands) by Alodia",
+          "url": "https://www.youtube.com/watch?v=dkt4-a_VGn8"
+        }
+      ]
+    },
+    {
+      "titulo": "Songs",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Songs based from movies",
+        "url": "https://www.youtube.com/results?search_query=harry+potter+song+themes"
+      },
+      "videos": [
+        {
+          "titulo": "Harry Potter Music & Ambience | Rainy Night at Hogwarts",
+          "url": "https://www.youtube.com/watch?v=jATVgJ_grys"
+        },
+        {
+          "titulo": "Harry Potter - Hedwig's Theme (Piano Version)",
+          "url": "https://www.youtube.com/watch?v=jTPXwbDtIpA"
+        },
+        {
+          "titulo": "Snape & Lily's Theme Extended SoundTrack",
+          "url": "https://www.youtube.com/watch?v=W_m_a1rPCus"
+        },
+        {
+          "titulo": "Harry Potter Music & Ambience | Hogsmeade Relaxing Music, Crowd Noise, and Snow.",
+          "url": "https://www.youtube.com/watch?v=LgZjI7JRi1I"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Games and gameplays from HP world",
+        "url": "https://www.youtube.com/results?search_query=harry+potter+games"
+      },
+      "videos": [
+        {
+          "titulo": "Harry Potter and the Philosopher's / Sorcerer's Stone (PC) - Full Game Walkthrough",
+          "url": "https://www.youtube.com/watch?v=mZW1azS3o4o"
+        },
+        {
+          "titulo": "Harry Potter and the Chamber of Secrets (PC) - Full Game Walkthrough",
+          "url": "https://www.youtube.com/watch?v=L8ZLayN3NOM"
+        },
+        {
+          "titulo": "Harry Potter and the Goblet of Fire (PC) - Full Game Walkthrough",
+          "url": "https://www.youtube.com/watch?v=L5JBlAwSxkI"
+        },
+        {
+          "titulo": "LEGO Harry Potter: Years 1-4 - Full Game Story Mode Longplay Let's Play",
+          "url": "https://www.youtube.com/watch?v=tHtXuLouFfU"
+        }
+      ]
+    }
+  ]
+}
