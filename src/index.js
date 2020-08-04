@@ -7,18 +7,11 @@ import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
 import Page404 from './pages/Page404';
 
-function retornaCadastro() {
-  return (
-    <div> Tela de cadastro de qualquer coisa </div>
-  )
-}
-
 ReactDOM.render(  
   <BrowserRouter>
     <Switch>      
       <Route path='/cadastro/video' component = {CadastroVideo} exact />
       <Route path='/cadastro/categoria' component = {CadastroCategoria} exact />
-      <Route path='/cadastro' component = {retornaCadastro} exact />
       <Route path='/' component = {App} exact />
       <Route component = {Page404} />
     </Switch>

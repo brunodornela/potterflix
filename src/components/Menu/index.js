@@ -16,16 +16,6 @@ function Menu() {
                     Novo Vídeo
                 </Button>                
             </div>
-            <div>
-                <Button as={Link} className="ButtonLink" to="/cadastro">
-                    Cadastro
-                </Button>
-            </div>
-            <div>
-                <Button as={Link} className="ButtonLink" to="/cadas">
-                    goto 404
-                </Button>
-            </div>
         </nav>
     );
 }

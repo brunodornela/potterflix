@@ -15,7 +15,6 @@ const FullDiv = styled.div`
 `
 
 const TextDiv = styled.div`
-  background-color:"orange";
   flex:1;
   align-items:center;
 `
@@ -23,8 +22,7 @@ function Page404() {
     return (
       <>
       <Menu/>
-      <FullDiv style={{ backgroundColor:"orange"}}>
-        
+      <FullDiv>        
         <TextDiv style={{display:"flex", flexDirection:"column"}}>
           
           <div style={{flex:1}} ></div>
@@ -44,7 +42,6 @@ function Page404() {
             Unfortunely, we cant find that page
           </h4>
         </TextDiv>
-
       </FullDiv>
       
       </>
