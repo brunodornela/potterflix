@@ -8,12 +8,12 @@ function Menu() {
     return (
         <nav className="Menu">
             <Link to="/">
-                <img className="Logo" src={logo} alt="Logo da PotterFlix" />
+                <img className="Logo" src={logo} alt="PotterFlix logo" />
             </Link>
 
             <div>
-                <Button as={Link} className="ButtonLink" to="/cadastro/video">
-                    Novo Vídeo
+                <Button as={Link} className="ButtonLink" to="/create/video">
+                    New Video
                 </Button>                
             </div>
         </nav>
