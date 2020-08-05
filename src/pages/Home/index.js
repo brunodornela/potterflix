@@ -7,33 +7,33 @@ import Footer from '../../components/Footer';
 
 function App() {
   return (
-    <div style={{ background: "#141414" }}>
+    <div style={{ background: '#141414' }}>
       <Menu />
 
-      <BannerMain 
+      <BannerMain
         videoTitle={initialData.categorias[0].videos[0].titulo}
         url={initialData.categorias[0].videos[0].url}
-        videoDescription={"Only for PotterHeads"}
+        videoDescription="Only for PotterHeads"
       />
 
-      <Carousel 
+      <Carousel
         ignoreFirstVideo
         category={initialData.categorias[0]}
       />
 
-      <Carousel 
+      <Carousel
         category={initialData.categorias[1]}
       />
 
-      <Carousel 
+      <Carousel
         category={initialData.categorias[2]}
       />
 
-      <Carousel 
+      <Carousel
         category={initialData.categorias[3]}
       />
 
-      <Carousel 
+      <Carousel
         category={initialData.categorias[4]}
       />
 
