@@ -29,7 +29,9 @@ function CreateCategory() {
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categories';
+    const URL_PROD = 'https://potterflix-backend.herokuapp.com/categories';
+    const URL_DEV = 'http://localhost:8080/categories';
+    const URL = window.location.href.includes('localhost') ? URL_DEV : URL_PROD;
 
     fetch(URL)
       .then(async (response) => {
