@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 // import Button from '../../../components/Menu/components/Button';
@@ -10,7 +10,7 @@ function CreateCategory() {
     description: '',
     color: '#ff0000',
   };
-  const [categoryList, setCategoryList] = useState(['Test', 'outro']);
+  const [categoryList, setCategoryList] = useState([]);
   const [newCategory, setNewCategory] = useState(initialValues);
 
   function setCategory(key, value) {
@@ -28,13 +28,25 @@ function CreateCategory() {
     );
   }
 
+  useEffect(() => {
+    const URL = 'http://localhost:8080/categories';
+
+    fetch(URL)
+      .then(async (response) => {
+        const jsonn = await (response.json());
+        setCategoryList([
+          ...jsonn,
+        ]);
+      });
+  }, []);
+
   return (
     <PageDefault>
 
       <form onSubmit={function handleSubmit(eventInfos) {
         eventInfos.preventDefault();
         setCategoryList([
-          ...categoryList, newCategory.name,
+          ...categoryList, newCategory,
         ]);
         setNewCategory(initialValues);
       }}
@@ -67,7 +79,7 @@ function CreateCategory() {
           value={newCategory.color}
           onChange={handleOnChange}
         />
-        <button type="button">
+        <button>
           Save
         </button>
       </form>
@@ -75,7 +87,7 @@ function CreateCategory() {
       <ul>
         {categoryList.map((categoryItem, index) => (
           <li key={String(index)}>
-            {categoryItem}
+            {categoryItem.name}
           </li>
         ))}
       </ul>

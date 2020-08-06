@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Test",
+      "description": "Description of Test category, used on Potterflix's project for learning purposes on 'Imersao React da Alura'",
+      "color": "#ff0000"
+    },
+    {
+      "id": 2,
+      "name": "Videos",
+      "description": "Videos of server",
+      "color": "#ff0000"
+    },
+    {
+      "id": 3,
+      "name": "Podcasts",
+      "description": "Podcasts of server",
+      "color": "#ff0000"
+    },
+    {
+      "id": 4,
+      "name": "Lives",
+      "description": "Lives of server",
+      "color": "#ff0000"
+    },
+    {
+      "id": 5,
+      "name": "Musics",
+      "description": "Musics of server",
+      "color": "#ff0000"
+    }
+  ]
+}
